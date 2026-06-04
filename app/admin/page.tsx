@@ -4,6 +4,7 @@ import { formatDate } from "@/lib/utils";
 import { Users, FileText, MessageSquare, TrendingUp, AlertCircle } from "lucide-react";
 import Link from "next/link";
 
+export const dynamic = "force-dynamic";
 export const metadata: Metadata = { title: "Dashboard" };
 
 export default async function AdminDashboard() {

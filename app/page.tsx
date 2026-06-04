@@ -11,6 +11,8 @@ import { DiscoveryCallForm } from "@/components/home/DiscoveryCallForm";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { siteConfig } from "@/lib/siteConfig";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: `${siteConfig.name} — Marketing & Branding Agency`,
   description: siteConfig.description,

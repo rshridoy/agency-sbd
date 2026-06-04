@@ -7,6 +7,8 @@ import Link from "next/link";
 import { ArrowRight, Megaphone, BarChart2, Video, Users, ShoppingCart, Building2, CheckCircle2 } from "lucide-react";
 import { DiscoveryCallForm } from "@/components/home/DiscoveryCallForm";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Services",
   description: "Full-service marketing solutions from Siren Communication — branding, social media, video production, influencer marketing, e-commerce, and B2B strategies.",

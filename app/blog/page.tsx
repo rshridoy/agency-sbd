@@ -12,6 +12,8 @@ export const metadata: Metadata = {
   description: "Marketing insights, brand strategies, and industry knowledge from the Siren Communication team.",
 };
 
+export const dynamic = "force-dynamic";
+
 const PER_PAGE = 6;
 
 export default async function BlogPage({

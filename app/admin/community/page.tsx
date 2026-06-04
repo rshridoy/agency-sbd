@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { prisma } from "@/lib/db";
+
+export const dynamic = "force-dynamic";
 import { formatDate } from "@/lib/utils";
 import { Phone, Mail } from "lucide-react";
 

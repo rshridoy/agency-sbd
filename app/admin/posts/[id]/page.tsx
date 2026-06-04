@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { prisma } from "@/lib/db";
 import { PostForm } from "@/components/admin/PostForm";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = { title: "Edit Post" };
 
 export default async function EditPostPage({ params }: { params: Promise<{ id: string }> }) {

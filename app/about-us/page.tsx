@@ -7,6 +7,8 @@ import { prisma } from "@/lib/db";
 import Link from "next/link";
 import { ArrowRight, Target, Eye, Lightbulb, TrendingUp } from "lucide-react";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "About Us",
   description: "Learn about Siren Communication — a 10+ year veteran in advertising, branding, and digital marketing in Bangladesh.",
